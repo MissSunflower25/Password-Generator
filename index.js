@@ -18,8 +18,13 @@ for (let i=0; i < 30; i++){
           password2Storage += characters[Math.floor(Math.random()*characters.length)]
      }
 
-//     console.log(password1Storage)
 password1.textContent = password1Storage;
 password2.textContent = password2Storage;
 
 }})
+
+// copy btn
+
+copy1.addEventListener("click", ()=>{
+     localStorage.setItem("opion1",password1)
+})

@@ -19,8 +19,10 @@ body {
     color:#10B981;
 }
 
+/* btn's styling */
+
 #btn-el {
-    background-color: #10B981;
+    background-color: rgb(16, 185, 129);
     padding: 0.5em 0.75em;
     border-radius:0.5em;
     color: white;
@@ -28,7 +30,24 @@ body {
 
 }
 
+#btn-el:hover {
+background-color: rgba(16, 185, 129, .5);
+cursor: pointer;
+}
 
+#copy {
+    background-color: rgb(203, 240, 227);
+    padding: 0.25em 0.5em;
+    border-radius:0.5em;
+    color: #374151;
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+
+#copy:hover {
+    background-color: rgba(203, 240, 227,0.5);
+    cursor: pointer;
+}
 
 
 /* hr {
